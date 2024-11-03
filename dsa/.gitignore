@@ -1,7 +1,7 @@
 *.class
 inputFiles.lst
 createdFiles.lst
-settings.json
+.vscode/settings.json
 dsa.code-workspace
-.vscode/
+.vscode/*
 target/
