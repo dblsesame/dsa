@@ -40,6 +40,8 @@ public class ListNode {
         
         while (node1 != null && node2 !=null) {
             if (node1.val != node2.val) return false;
+            //this assumes that the list has no cycle or this is an infinite loop
+            // what was I thinking back then? 
             node1 = node1.next;
             node2 = node2.next;
         }

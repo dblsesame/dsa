@@ -246,4 +246,8 @@ public class Existence {
         }
         return maxlen;
     }
+
+    /**
+     * 2352. Equal Row and Column Pairs - medium
+     */
 }
